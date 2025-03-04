@@ -30,3 +30,17 @@ ExposedBridge.initOnce(context, applicationInfo, appClassLoader);
 ExposedBridge.loadModule(moduleApk, apkOdexDir, moduleLibDir, applicationInfo, appClassLoader);
 ```
 
+# 生成APK文件
+
+要生成APK文件，请按照以下步骤操作：
+
+1. 确保已安装Java Development Kit (JDK)和Android SDK。
+2. 克隆此存储库到本地计算机。
+3. 在命令行中导航到存储库的根目录。
+4. 运行以下命令以生成APK文件：
+
+```sh
+./gradlew assembleRelease
+```
+
+生成的APK文件将位于`exposed-core/build/outputs/apk/release/`目录中。
