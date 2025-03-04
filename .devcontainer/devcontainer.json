@@ -1,0 +1,7 @@
+{
+  "tasks": {
+    "test": "./gradlew test",
+    "build": "./gradlew assembleRelease",
+    "launch": "./gradlew assembleRelease"
+  }
+}
